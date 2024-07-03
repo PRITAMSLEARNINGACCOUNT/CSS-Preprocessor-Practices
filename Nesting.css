@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+body h1 {
+  text-align: center;
+}
+body .SampleDiv {
+  position: relative;
+  height: 90vh;
+  width: 100%;
+}
+body .SampleDiv button {
+  position: fixed;
+  bottom: 0;
+  background-color: red;
+  border-radius: 20vw;
+  width: 10vw;
+  height: 5vh;
+  right: 0;
+}/*# sourceMappingURL=Nesting.css.map */

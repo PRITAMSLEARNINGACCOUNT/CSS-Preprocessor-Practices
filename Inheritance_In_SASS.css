@@ -1,0 +1,12 @@
+.BaseDiv, .InheritedDiv {
+  height: 45vh;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.InheritedDiv {
+  background-color: greenyellow;
+}/*# sourceMappingURL=Inheritance_In_SASS.css.map */

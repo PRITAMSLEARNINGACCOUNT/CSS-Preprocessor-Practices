@@ -1,0 +1,16 @@
+@import "Partials";
+
+body {
+  background-color: nth($Colour_Array, 2);
+  h1 {
+    color: nth($Colour_Array, 1);
+    text-align: $var_3;
+  }
+  div {
+    width: $var_1;
+    display: $var_2;
+    justify-content: $var_3;
+    align-items: $var_3;
+    height: 50vh;
+  }
+}

@@ -1,0 +1,24 @@
+$Division_Size: 20vh;
+%To_Be_Inherited {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Main {
+  height: 450vh;
+}
+.Plus {
+  height: $Division_Size + 20;
+  background-color: aqua;
+  @extend %To_Be_Inherited;
+}
+.Minus {
+  height: $Division_Size - 10;
+  background-color: rgb(255, 0, 0);
+  @extend %To_Be_Inherited;
+}
+.Multiplication {
+  height: $Division_Size * 20;
+  background-color: rgb(4, 0, 255);
+  @extend %To_Be_Inherited;
+}

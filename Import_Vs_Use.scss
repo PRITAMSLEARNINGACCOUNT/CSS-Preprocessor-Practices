@@ -1,0 +1,12 @@
+// @import "Import_Vs_Use_2"; Use "@use" Instead Of The Importing Statement
+@use "_Import_Vs_Use" as Col;
+@use "_Import_Vs_Use_2" as Col_2;
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: Col.$Colour_Var;
+  h1 {
+    background-color: Col_2.$Colour_Var;
+  }
+}

@@ -1,0 +1,12 @@
+.Heading {
+  background-color: aqua;
+  height: 50vh;
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+}
+.Heading:hover {
+  background-color: rgb(95, 153, 153);
+}/*# sourceMappingURL=Pseudo_Class_Selector.css.map */

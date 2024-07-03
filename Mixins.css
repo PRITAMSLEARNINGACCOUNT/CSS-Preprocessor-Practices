@@ -1,0 +1,14 @@
+.Mixin {
+  height: 10vh;
+  width: 50%;
+  background-color: rgb(217, 84, 84);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(81, 74, 74, 0.87);
+}/*# sourceMappingURL=Mixins.css.map */

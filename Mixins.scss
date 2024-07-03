@@ -1,0 +1,20 @@
+@mixin Div_Mixin($color: green) {
+  height: 10vh;
+  width: 50%;
+  background-color: $color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin Body_Mixin() {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(81, 74, 74, 0.87);
+}
+
+.Mixin {
+  @include Div_Mixin(rgb(217, 84, 84));
+}
+body {
+  @include Body_Mixin();
+}

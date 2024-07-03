@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+body > h1 {
+  color: rgb(225, 32, 32);
+}
+body > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+}
+body h2 {
+  text-align: center;
+  font-style: arial, sans-serif;
+}
+body h3 {
+  text-align: center;
+  font-style: arial, sans-serif;
+}
+body h4 {
+  text-align: center;
+  font-style: arial, sans-serif;
+  font-size: 200px;
+}/*# sourceMappingURL=Varriable.css.map */

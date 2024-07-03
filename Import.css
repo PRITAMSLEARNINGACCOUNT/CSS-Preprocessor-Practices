@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(169, 239, 56);
+}
+body h1 {
+  color: red;
+  text-align: center;
+}
+body div {
+  width: 98vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}/*# sourceMappingURL=Import.css.map */
